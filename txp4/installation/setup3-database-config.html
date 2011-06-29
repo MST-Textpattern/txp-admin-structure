@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+			"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Textpattern &#8250; setup</title>
+	<link rel="stylesheet" href="/textpattern/theme/classic/textpattern.css" type="text/css" />
+	</head>
+	<body style="border-top:15px solid #FC3">
+	<div align="center"><p>Checking database connection…</p><p>Connected</p><p>Using <strong>local-test-mysql</strong> (utf8)</p><p><strong>Before you proceed</strong>, Create a file called <code>config.php</code> in the <code>/textpattern/</code> directory and paste the following inside:</p><textarea name="config" cols="40" rows="5" style="width: 400px; height: 200px"><?php
+$txpcfg['db'] = 'test-mysql';
+$txpcfg['user'] = 'test-mysql';
+$txpcfg['pass'] = 'password1';
+$txpcfg['host'] = 'localhost';
+$txpcfg['table_prefix'] = '';
+$txpcfg['txpath'] = '/Users/johnqpublic/textpattern';
+$txpcfg['dbcharset'] = 'utf8';
+?></textarea><form action="/textpattern/setup/index.php" method="post"><input type="submit" value="I did it" name="submit" class="smallbox" /><input type="hidden" value="getTxpLogin" name="step" /><input type="hidden" value="YTo5OntzOjM6ImRkYiI7czoxNjoibG9jYWwtdGVzdC1teXNxbCI7czo1OiJkdXNlciI7czoxNjoibG9jYWwtdGVzdC1teXNxbCI7czo1OiJkcGFzcyI7czoxMjoiZUd0czUzSGdzQWlpIjtzOjU6ImRob3N0IjtzOjk6ImxvY2FsaG9zdCI7czo3OiJkcHJlZml4IjtzOjA6IiI7czo3OiJzaXRldXJsIjtzOjE5OiJ3d3cudGV4dHBhdHRlcm4uZGV2IjtzOjQ6ImxhbmciO3M6NToiZW4tZ2IiO3M6MTM6ImRjbGllbnRfZmxhZ3MiO2k6MDtzOjk6ImRiY2hhcnNldCI7czo0OiJ1dGY4Ijt9" name="carry" /></form></div>
+</body>
+</html>
