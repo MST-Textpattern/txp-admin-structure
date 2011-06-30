@@ -96,6 +96,10 @@ Used for managing/editing website section structure.
 
 ### Proposals for consideration
 
+1. Consolidate preferences/languages into a single page (discussion link TBC).
+2. Move section edit page from presentation to content (discussion link TBC).
+3. Make image edit, file edit, comment edit etc appear as overlays on their parent page not seperate pages (discussion link TBC).
+
 **CURRENTLY INCOMPLETE - MORE TEXT TO BE ADDED SOON**
 
 ### Accepted proposals
