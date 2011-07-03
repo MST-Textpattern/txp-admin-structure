@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Txp &#8250; My Site &#8250; Write</title>
+	<meta name="robots" content="none">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+<!-- Modernizr -->
+	<script src="js/modernizr.js"></script>
+</head>
+<body id="txpcore_page-article">
+
+	<header role="banner">
+		<h1><a href="#" title="Go to your website homepage">My Site</a></h1>
+		<p id="mothership"><a href="http://textpattern.com" title="Go to the Textpattern website" rel="external">Textpattern</a></p>
+	</header>
+
+	<nav role="navigation" id="navigation">
+		<h3>Site navigation</h3>
+
+		<ul>
+			<li class='primary active'><a href='#'>Content</a>
+				<ul>
+					<li class='secondary active'><a href='#'>Write</a></li>
+					<li class='secondary inactive'><a href='#'>Articles</a></li>
+					<li class='secondary inactive'><a href='#'>Sections</a></li>
+					<li class='secondary inactive'><a href='#'>Categories</a></li>
+					<li class='secondary inactive'><a href='#'>Images</a></li>
+					<li class='secondary inactive'><a href='#'>Files</a></li>
+					<li class='secondary inactive'><a href='#'>Links</a></li>
+					<li class='secondary inactive'><a href='#'>Comments</a></li>
+				</ul>
+			</li>
+			<li class='primary inactive'><a href='#'>Presentation</a>
+				<ul>
+					<li class='secondary inactive'><a href='#'>Pages</a></li>
+					<li class='secondary inactive'><a href='#'>Forms</a></li>
+					<li class='secondary inactive'><a href='#'>Style</a></li>
+				</ul>
+			</li>
+			<li class='primary inactive'><a href='#'>Admin</a>
+				<ul>
+					<li class='secondary inactive'><a href='#'>Diagnostics</a></li>
+					<li class='secondary inactive'><a href='#'>Preferences</a></li>
+					<li class='secondary inactive'><a href='#'>Users</a></li>
+					<li class='secondary inactive'><a href='#'>Visitor Logs</a></li>
+					<li class='secondary inactive'><a href='#'>Plugins</a></li>
+					<li class='secondary inactive'><a href='#'>Import</a></li>
+				</ul>
+			</li>
+			<li class='primary inactive'><a href='#'>Extensions</a>
+				<ul>
+					<li class='secondary inactive'><a href='#'>Extension 1</a></li>
+					<li class='secondary inactive'><a href='#'>Extension 2</a></li>
+					<li class='secondary inactive'><a href='#'>Extension 3</a></li>
+					<li class='secondary inactive'><a href='#'>Extension 4</a></li>
+					<li class='secondary inactive'><a href='#'>Extension 5</a></li>
+				</ul>
+			</li>
+			<li id="txp-logout"><a href="#" onclick="">Logout</a></li>
+		</ul>
+
+	</nav>
+
+	<article role="main">
+
+		<h2>Write</h2>
+
+
+		<section id="message-pane">
+			<h3>Message pane</h3>
+
+				<p>Article posted.</p>
+
+		</section>
+
+
+		<form id="article-form" name="article-form" method="post" action="#">
+
+
+			<nav id="article-navigation">
+				<h3>Article navigation</h3>
+
+				<ul>
+					<li><a id="article-view" href="#" title="View" rel="external">View</a></li>
+					<li><a id="article-prev" href="#" title="Prev">&#171; Prev</a></li>
+					<li><a id="article-next" href="#" title="Next">Next &#187;</a></li>
+					<li><a id="article-new" href="#" title="Create new">Create new</a></li>
+				</ul>
+
+			</nav>
+
+
+			<section id="article-content-main">
+				<h3>Article main content</h3>
+
+
+				<p class="title">
+					<label for="title">Title</label> <a target="_blank" href="#" class="pophelp">?</a><br>
+					<input type="text" id="title" name="Title" tabindex="1">
+				</p>
+				<p class="body">
+					<label for="body">Body</label> <a target="_blank" href="#" class="pophelp">?</a><br>
+					<textarea id="body" name="Body" tabindex="2"></textarea>
+				</p>
+				<p class="excerpt">
+					<label for="excerpt">Excerpt</label> <a target="_blank" href="#" class="pophelp">?</a><br>
+					<textarea id="excerpt" name="Excerpt" tabindex="3"></textarea>
+				</p>
+
+
+			</section>
+
+
+			<section id="article-markup-reference">
+				<h3>Article markup reference</h3>
+
+
+				<fieldset id="textile_group">
+					<legend class="lever"><a href="#textile_help">Textile Help</a></legend>
+					<ul class="textile">
+						<li>Header: <strong>h<em>n</em>.</strong>&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>Blockquote: <strong>bq.</strong>&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>Numeric list: <strong>#</strong>&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>Bulleted list: <strong>*</strong>&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>_<em>emphasis</em>_&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>*<strong>strong</strong>*&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>??<cite>citation</cite>??&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>-deleted text-&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>+inserted text+&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>^superscript^&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>~subscript~&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>"linktext":url&#160;<a class="popup" rel="external" href="#">?</a></li>
+						<li>!imageurl!&#160;<a class="popup" rel="external" href="#">?</a></li>
+					</ul>
+					<p><a id="textile-docs-link" href="#" rel="external">More</a></p>
+				</fieldset>
+
+
+			</section>
+
+
+			<section id="article-content-secondary">
+				<h3>Article secondary content</h3>
+
+
+				<fieldset id="custom-field-group">
+					<legend class="lever"><a href="#custom_field">Custom Fields</a></legend>
+					<p class="custom-field custom-1">
+						<label for="custom-1">custom1</label><br>
+						<input type="text" value="" name="custom_1" class="edit" id="custom-1">
+					</p>
+					<p class="custom-field custom-2">
+						<label for="custom-2">custom2</label><br>
+						<input type="text" value="" name="custom_2" class="edit" id="custom-2"></p>
+				</fieldset>
+
+				<fieldset id="image-group">
+					<legend class="lever"><a href="#image">Article Image</a></legend>
+					<p class="article-image">
+						<label for="article-image">Article Image</label>&#160;<a class="popup" rel="external" href="#">?</a><br>
+						<input type="text" value="" name="Image" class="edit" id="article-image">
+					</p>
+				</fieldset>
+
+				<fieldset id="meta-group">
+					<legend class="lever"><a href="#meta">Meta</a></legend>
+					<p class="keywords">
+						<label for="keywords">Keywords</label> <a target="_blank" href="#" class="pophelp">?</a><br>
+						<textarea id="keywords" name="Keywords"></textarea>
+					</p>
+					<p class="url-title">
+						<label for="url-title">URL-only title</label>&#160;<a class="popup" rel="external" href="#">?</a><br>
+						<input type="text" name="url_title" class="edit" id="url-title">
+					</p>
+				</fieldset>
+
+				<fieldset id="article-comments">
+					<legend class="lever">Comments</legend>
+					<p class="comment-annotate">
+						<input type="radio" id="Annotate-0" name="Annotate" value="0" class="radio active" checked="checked"><label for="Annotate-0">Off</label>
+						<input type="radio" id="Annotate-1" name="Annotate" value="1" class="radio"><label for="Annotate-1">On</label>
+					</p>
+					<p class="comment-invite">
+						<label for="comment-invite">Invitation</label><br>
+						<input type="text" value="Add a comment" name="AnnotateInvite" id="comment-invite">
+					</p>
+				</fieldset>
+
+
+			</section>
+
+
+			<section id="article-configuration">
+				<h3>Article configuration</h3>
+
+
+				<fieldset id="write-status">
+					<legend>Status</legend>
+					<p>
+						<input type="radio" name="Status" value="1" id="status-1"><label for="status-1">Draft</label>
+						<input type="radio" name="Status" value="2" id="status-2"><label for="status-2">Hidden</label>
+						<input type="radio" name="Status" value="3" id="status-3"><label for="status-3">Pending</label>
+						<input type="radio" name="Status" value="4" id="status-4" checked="checked"><label for="status-4"><strong>Live</strong></label>
+						<input type="radio" name="Status" value="5" id="status-5"><label for="status-5">Sticky</label>
+					</p>
+				</fieldset>
+
+				<fieldset id="write-sort">
+					<legend>Sort and Display</legend>
+					<p class="category-1">
+						<label for="category-1">Category 1</label><br>
+						<select id="category-1" name="Category1">
+							<option value="" selected="selected">&nbsp;</option>
+							<option value="hope-for-the-future">Hope for the Future</option>
+							<option value="meaningful-labor">Meaningful Labor</option>
+							<option value="reciprocal-affection">Reciprocal Affection</option>
+						</select>
+					</p>
+					<p class="category-2">
+						<label for="category-2">Category 2</label><br>
+						<select id="category-2" name="Category2">
+							<option value="" selected="selected">&nbsp;</option>
+							<option value="hope-for-the-future">Hope for the Future</option>
+							<option value="meaningful-labor">Meaningful Labor</option>
+							<option value="reciprocal-affection">Reciprocal Affection</option>
+						</select>
+					</p>
+					<p class="section">
+						<label for="section">Section</label><br>
+						<select id="section" name="Section">
+							<option value="about">about</option>
+							<option value="articles" selected="selected">articles</option>
+						</select>
+					</p>
+				</fieldset>
+
+				<fieldset id="advanced_group">
+					<legend class="lever"><a href="#">Advanced Options</a></legend>
+					<p class="markup-body">
+						<label for="markup-body">Article Markup</label><br>
+						<select id="markup-body" name="textile_body" class="list">
+							<option value="1" selected="selected">Use Textile</option>
+							<option value="2">Convert linebreaks</option>
+							<option value="0">Leave text untouched</option>
+						</select>
+					</p>
+					<p class="markup-excerpt">
+						<label for="markup-excerpt">Excerpt Markup</label><br>
+						<select id="markup-excerpt" name="textile_excerpt" class="list">
+							<option value="1" selected="selected">Use Textile</option>
+							<option value="2">Convert linebreaks</option>
+							<option value="0">Leave text untouched</option>
+						</select>
+					</p>
+					<p class="override-form">
+						<label for="override-form">Override form</label>&#160;<a class="popup" rel="external" href="#">?</a><br>
+						<select id="override-form" name="override_form" class="list">
+							<option value="" selected="selected"></option>
+							<option value="article_listing">article_listing</option>
+							<option value="comments_display">comments_display</option>
+							<option value="lofi">lofi</option>
+							<option value="single">single</option>
+						</select>
+					</p>
+				</fieldset>
+
+
+			</section>
+
+
+			<section id="article-timestamp">
+				<h3>Article date/time</h3>
+
+
+				<fieldset id="article-posted-at">
+					<legend class="lever">Timestamp</legend>
+					<p class="posted-now"><input type="checkbox" name="reset_time" value="1" id="reset_time" class="checkbox"><label for="reset_time">Reset time to now</label></p>
+					<p class="posted-at">Published at&#160;<a class="popup" rel="external" href="#">?</a></p>
+					<p class="posted"><span class="label">Date</span>
+						<input type="text" name="year" value="" size="4" maxlength="4" class="year" title="Year"> /
+						<input type="text" name="month" value="" size="2" maxlength="2" class="month" title="Month"> /
+						<input type="text" name="day" value="" size="2" maxlength="2" class="day" title="Day">
+					</p>
+					<p class="posted"><span class="label">Time</span>
+						<input type="text" name="hour" value="" size="2" maxlength="2" class="hour" title="Hour"> :
+						<input type="text" name="minute" value="" size="2" maxlength="2" class="minute" title="Minute"> :
+						<input type="text" name="second" value="" size="2" maxlength="2" class="second" title="Second">
+					</p>
+				</fieldset>
+
+				<fieldset id="article-expires">
+					<legend class="lever">Expires</legend>
+					<p class="expires"><span class="label">Date</span>
+						<input type="text" name="exp_year" value="" size="4" maxlength="4" class="exp_year" title="Year"> /
+						<input type="text" name="exp_month" value="" size="2" maxlength="2" class="exp_month" title="Month"> /
+						<input type="text" name="exp_day" value="" size="2" maxlength="2" class="exp_day" title="Day">
+					</p>
+					<p class="expires"><span class="label">Time</span>
+						<input type="text" name="exp_hour" value="" size="2" maxlength="2" class="exp_hour" title="Hour"> :
+						<input type="text" name="exp_minute" value="" size="2" maxlength="2" class="exp_minute" title="Minute"> :
+						<input type="text" name="exp_second" value="" size="2" maxlength="2" class="exp_second" title="Second">
+					</p>
+				</fieldset>
+
+
+			</section>
+
+
+			<p><input id="article-publish" type="submit" value="Save" name="save" tabindex="4"></p>
+
+
+			<p class="author">Posted by: admin &#183; 31 May 2011 &#183; 14:00:00<br>
+				Last modified by: admin &#183; 31 May 2011 &#183; 15:00:00.</p>
+
+
+			<nav id="article-recent">
+				<h3>Recent articles</h3>
+
+				<ol>
+					<li><a href="#">test article</a></li>
+					<li><a href="#">Welcome to Your Site!</a></li>
+				</ol>
+
+			</nav>
+
+
+		</form>
+
+	</article>
+
+	<footer role="contentinfo">
+		<p><small>Powered by Textpattern (v4.4.1)</small></p>
+	</footer>
+
+<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+</body>
+</html>
